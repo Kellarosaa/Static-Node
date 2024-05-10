@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password Protected Page</title>
+  <style>
+    .green-box {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      border-radius: 10px;
+    }
+    .go-button {
+      background-color: #008CBA;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="green-box">
+    Enter the password to continue
+  </div>
+  <input type="password" id="password-input" placeholder="Enter password">
+  <button class="go-button" onclick="checkPassword()">Go</button>
+
+  <script>
+    function checkPassword() {
+      var password = document.getElementById("password-input").value;
+      if (password === "я держу район") {
+        window.location.href = "https://example.com";
+      } else {
+        alert("Incorrect password. Please try again.");
+      }
+    }
+  </script>
+</body>
+</html>
