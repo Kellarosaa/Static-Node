@@ -22,13 +22,21 @@
       margin-top: 20px;
       border-radius: 5px;
     }
+    .password-input {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 200px;
+      box-sizing: border-box;
+    }
   </style>
 </head>
 <body>
   <div class="green-box">
     Enter the password to continue
   </div>
-  <input type="password" id="password-input" placeholder="Enter password">
+  <input type="password" id="password-input" class="password-input" placeholder="Enter password">
   <button class="go-button" onclick="checkPassword()">Go</button>
 
   <script>
