@@ -124,12 +124,12 @@ footer a:hover {
   margin-top: 5px;
   border-radius: 50px;
   color: #fff;
-  transition: border-radius 0.1s;
+  transition: border-radius 0.9s;
 }
 
 #uv-address:focus {
   border: 1px solid rgba(253, 253, 253, 0.514);
-  border-radius: 6px;
+  border-radius: 10px;
 }
 
 .credit {
