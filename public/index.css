@@ -29,13 +29,13 @@ body {
 }
 
 #uv-error {
-  color: #ff6666 !important;
+  color: #000 !important;
   white-space: pre-wrap;
 }
 
 #uv-error-code {
   font-size: 12px;
-  color: #fff;
+  color: #000;
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -52,7 +52,7 @@ body {
 }
 
 #uv-register-sw:active {
-  background: #333333;
+  background: #000;
 }
 
 #uv-register-sw.show {
@@ -66,7 +66,7 @@ body {
 
 .logo-wrapper .text {
   font-size: 100px;
-  color: #ff6666;
+  color: #000;
 }
 
 .logo-wrapper h1 {
@@ -94,7 +94,7 @@ footer a,
 footer span {
   margin: 0 15px;
   text-decoration: none;
-  color: #fff;
+  color: #000;
   font-size: 15px;
 }
 
@@ -128,7 +128,7 @@ footer a:hover {
 }
 
 #uv-address:focus {
-  border: 1px solid rgba(253, 253, 253, 0.514);
+  border: 1px solid rgba(155, 253, 253, 0.514);
   border-radius: 20px;
 }
 
@@ -136,8 +136,8 @@ footer a:hover {
   border-radius: 10px;
   padding: 10px;
   display: block;
-  border: #fff 1px solid;
-  color: #fff;
+  border: #000 1px solid;
+  color: #000;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 15px;
