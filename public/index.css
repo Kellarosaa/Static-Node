@@ -60,8 +60,8 @@ body {
 }
 
 .logo {
-  width: 250px;
-  height: 250px;
+  width: 500px;
+  height: 500px;
 }
 
 .logo-wrapper .text {
@@ -107,7 +107,7 @@ footer a:hover {
 }
 
 .desc p {
-  width: 560px;
+  width: 750px;
   color: rgba(0, 0, 0, 0.75);
 }
 
@@ -128,7 +128,7 @@ footer a:hover {
 }
 
 #uv-address:focus {
-  border: 1px solid rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.75);
   border-radius: 20px;
 }
 
