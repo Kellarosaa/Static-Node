@@ -3,7 +3,7 @@
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   margin: 0;
-  background: #111;
+  background: #FFFFFF;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -40,7 +40,7 @@ body {
 }
 
 #uv-register-sw {
-  color: white;
+  color: black;
   background: #555555;
   cursor: pointer;
   outline: none;
