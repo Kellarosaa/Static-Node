@@ -41,7 +41,7 @@ body {
 
 #uv-register-sw {
   color: black;
-  background: #ff6666;
+  background: #000;
   cursor: pointer;
   outline: none;
   border: none;
@@ -123,7 +123,7 @@ footer a:hover {
   width: 350px;
   margin-top: 5px;
   border-radius: 50px;
-  color: #ff6666;
+  color: #000;
   transition: border-radius 2.0s;
 }
 
