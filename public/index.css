@@ -10,7 +10,7 @@ body {
 }
 
 .fa-magnifying-glass {
-  color: boack;
+  color: black;
 }
 
 .flex-center {
@@ -41,7 +41,7 @@ body {
 
 #uv-register-sw {
   color: black;
-  background: #555555;
+  background: #ff6666;
   cursor: pointer;
   outline: none;
   border: none;
@@ -66,7 +66,7 @@ body {
 
 .logo-wrapper .text {
   font-size: 100px;
-  color: #fff;
+  color: #ff6666;
 }
 
 .logo-wrapper h1 {
